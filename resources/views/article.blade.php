@@ -37,7 +37,7 @@
                 {{-- GAMBAR --}}
                 @if($article->image)
                 <img src="{{ asset('storage/'.$article->image) }}" alt="{{ $article->title }}"
-                    style="width:100%;max-height:450px;object-fit:cover;object-position:top;margin-bottom:1.5rem;border:1px solid var(--border);">
+                    style="width:100%;height:auto;margin-bottom:1.5rem;border:1px solid var(--border);">
                 @endif
 
                 {{-- KONTEN --}}
